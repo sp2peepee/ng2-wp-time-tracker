@@ -1,0 +1,86 @@
+.tt-nav-wrapper {
+	height : inherit;
+
+	.tt-nav-bar {
+		background-color : #C0392B;
+
+		position : fixed;
+		top      : 0;
+		height   : inherit;
+		width    : 100%;
+		z-index  : 1;
+
+		box-shadow : 0px 5px 10px 0px rgba( 0,0,0,0.2 );
+
+		.tt-nav-header {
+			.tt-head-logo {
+				background-color : white;
+
+				height : 50px;
+				width  : 50px;
+
+				img {
+					height     : 39px;
+					margin-top : 7px;
+				}
+			}
+		}
+	}
+}
+
+
+.mcu-nav-bar {
+	background-color : #E74C3C;
+	color            : #ECF0F1;
+
+	position : fixed;
+	top      : 0;
+	width    : 100%;
+	height   : 94px;
+	z-index  : 1;
+
+	box-shadow: 0px 5px 10px black;
+
+	.mcu-header {
+		cursor : pointer;
+
+		.mcu-logo {
+			width  : 150px;
+			margin : 10px 30px;
+
+			img {
+				width : 150px;
+			}
+		}
+
+		.mcu-head-text {
+			position   : relative;
+			top        : -14px;
+			font-size  : 11px;
+			text-align : center;
+		}
+	}
+
+	.mcu-menu {
+		font-weight : 300;
+		height      : inherit;
+
+		.mcu-menu-item {
+			width      : 150px;
+			text-align : center;
+
+			div {
+				padding : 37px 20px;
+				cursor  : pointer;
+			}
+
+			&.selected {
+				background-color : #690F12;
+			}
+
+			&:hover {
+				background-color : #ED696C;
+			}
+		}
+	}
+}
