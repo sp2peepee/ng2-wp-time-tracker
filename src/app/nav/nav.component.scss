@@ -1,5 +1,6 @@
 .tt-nav-wrapper {
-	height : inherit;
+	height    : inherit;
+	font-size : 14px;
 
 	.tt-nav-bar {
 		background-color : #C0392B;
@@ -25,9 +26,26 @@
 				}
 			}
 		}
+
+		.tt-nav-menu {
+			height : inherit;
+
+			.tt-nav-item {
+				height     : inherit;
+				cursor     : pointer;
+				transition : 0.5s;
+
+				div {
+					padding : 17px;
+				}
+
+				&:hover {
+					background-color : #E74C3C;
+				}
+			}
+		}
 	}
 }
-
 
 .mcu-nav-bar {
 	background-color : #E74C3C;
